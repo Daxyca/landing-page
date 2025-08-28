@@ -1,0 +1,142 @@
+html {
+    box-sizing: border-box;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+header,
+footer {
+    background-color:  #1f2937;
+    color: #f9f8fa;
+}
+
+/* header nav */
+
+nav {
+    display: flex;
+    padding-block: 2rem;
+    /* align-items: stretch; */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem
+}
+
+nav li {
+    color: #f9f8fa;
+    font-size: 1.125rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f9f8fa;
+}
+
+.header-logo {
+    font-size: 1.5rem;
+    color: #f9f8fa;
+    font: bold;
+    margin-right: auto;
+}
+
+nav,
+section,
+.hero-container,
+footer {
+    padding-inline: 5rem;
+}
+
+header {
+    padding-bottom: 5rem;
+}
+
+/* hero section */
+
+.hero-container {
+    display: grid;
+    grid-template: auto / 1fr 1fr;
+    padding-top: 3rem;
+}
+
+.hero-container h1 {
+    font-size: 3rem;
+    color: #f9f8fa;
+    font-weight: 900;
+}
+
+.hero-container p {
+    color: #f9f8fa;
+    font-size: 1.125rem;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9f8fa;
+    padding: 0.5rem 2rem;
+    border: 0;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+/* section one */
+
+.image-placeholder {
+
+}
+
+#quote-section {
+    background-color: #e5e7eb;
+}
+
+/* section two */
+
+blockquote {
+    font-size: 2.25rem;
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* section three */
+
+#section-three {
+    align-content: center;
+    color: #f9f8fa;
+}
+
+.sign-up-container {
+    display: flex;
+    width: 70%;
+    height: 5rem;
+    background-color: #3882f6;
+    margin: auto;
+}
+
+.sign-up-container button {
+    border: 1px solid #f9f8fa;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+/*
+button color
+#3882F6
+
+information header text
+36px #1F2937 weight 900
+
+quote section background color 
+#E5E7EB
+
+Quote text
+36px light italic #1F2937
+*/
